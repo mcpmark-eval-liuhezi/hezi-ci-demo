@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify pipeline
+        run: echo CI-DEMO-PIPELINE-OK
